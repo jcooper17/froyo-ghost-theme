@@ -960,6 +960,7 @@ main {
 
     .home-template .header-container, .home-template .site-head {
         height: 240px;
+        background-position-y: initial;
     }
 
     .blog-logo img {
