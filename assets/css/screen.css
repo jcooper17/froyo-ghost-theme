@@ -667,6 +667,16 @@ main {
     display: block;
 }
 
+.header-overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    display: table-cell;
+    position: absolute;
+    top: 0;
+    z-index: -5;
+}
+
 .post-meta {
 	font-size: 14px;
     font-size: 1.4rem;
