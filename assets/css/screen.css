@@ -488,7 +488,7 @@ main {
 }
 
 .header-container, .site-head {
-    height: 240px;
+    height: 360px;
 }
 
 .home-template .header-container, .home-template .site-head {
@@ -527,6 +527,7 @@ main {
     text-align: center;
     position: fixed;
     z-index: -1;
+    background-position-y: -170px;
 }
 
 .home-template h1.blog-title {
