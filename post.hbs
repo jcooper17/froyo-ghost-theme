@@ -13,7 +13,6 @@
             <div class="inner">
                 <header class="post-header">
                     <h1 class="post-title">{{{title}}}</h1>
-                    <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time>
                     <hr>
                 </header>
                 <section class="post-content">
@@ -34,27 +33,11 @@
                             <span class="hidden">Google+</span>
                         </a>
                     </div>
-                    <h6>Share this post:</h6>
+                    <h6>Share:</h6>
                 </section>
-                <p class="post-tags"><i class="fa fa-tags"></i> {{tags separator=", "}}</p>
             </div>
-            <section class="post-author">
-                <div class="inner">
-                    <div class="author-image-container col-aside">
-                        <img src="{{author.image}}" class="author-image" />
-                    </div>
-                    <div class="author-info">
-                        <h4>{{author.name}}</h4>
-                        <p>{{author.bio}}</p>
-                    </div>
-                </div>
-                <span class="clearfix"></span>
-            </section>
-            <div class="inner">
-                <div id="disqus_thread" data-disqus-shortname="" data-disqus-identifier="{{id}}"></div>
-            </div>
+            
         {{/post}}
     </article>
 
 </main>
-<script src="{{asset "js/disqus.js"}}"></script>
