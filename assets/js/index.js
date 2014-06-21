@@ -6,7 +6,7 @@
         $(".post-content").fitVids();
 
         function casperFullImg() {
-            $("img").each( function() {
+            $(".page img").each( function() {
                 var contentWidth = $(".post-content").outerWidth(); // Width of the content
                 var imageWidth = $(this)[0].naturalWidth; // Original image resolution
 
