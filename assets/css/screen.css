@@ -909,7 +909,6 @@ main {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 240px;
         background-position-y: initial;
     }
 
